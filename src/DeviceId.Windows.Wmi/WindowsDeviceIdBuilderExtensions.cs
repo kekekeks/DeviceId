@@ -7,7 +7,7 @@ namespace DeviceId
     /// <summary>
     /// Extension methods for <see cref="WindowsDeviceIdBuilder"/>.
     /// </summary>
-    public static class WindowsDeviceIdBuilderExtensions
+    public static class WindowsDeviceIdBuilderWmiExtensions
     {
         /// <summary>
         /// Adds the MAC address to the device identifier, optionally excluding wireless adapters and/or non-physical adapters.

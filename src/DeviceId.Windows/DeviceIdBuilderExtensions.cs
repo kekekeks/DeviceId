@@ -6,7 +6,7 @@ namespace DeviceId
     /// <summary>
     /// Extension methods for <see cref="DeviceIdBuilder"/>.
     /// </summary>
-    public static class DeviceIdBuilderExtensions
+    public static class DeviceIdBuilderWindowsExtensions
     {
         /// <summary>
         /// Adds Windows-specific components to the device ID.
