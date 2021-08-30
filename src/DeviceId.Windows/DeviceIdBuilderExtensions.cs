@@ -16,7 +16,7 @@ namespace DeviceId
         /// <returns>The device ID builder.</returns>
         public static DeviceIdBuilder OnWindows(this DeviceIdBuilder builder, Action<WindowsDeviceIdBuilder> windowsBuilderConfiguration)
         {
-            if (OS.IsWindows && windowsBuilderConfiguration is not null)
+            if (OS.IsWindows && windowsBuilderConfiguration != null)
             {
                 var windowsBuilder = new WindowsDeviceIdBuilder(builder);
                 windowsBuilderConfiguration.Invoke(windowsBuilder);
